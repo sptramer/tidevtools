@@ -45,7 +45,7 @@ OptionParser.new do |opts|
 			"Name of the remote") do |r|
 		options[:remote] = r
 	end
-	opts.on('--[no]-clean-remote', Boolean, 
+	opts.on('--[no-]clean-remote', 
 			"Whether or not to also clean remotes (default false)") do |clean|
 		options[:clean_remote] = clean
 	end
